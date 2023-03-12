@@ -8,6 +8,30 @@ html {
   box-sizing: inherit;
 }
 
+a:link {
+  text-decoration: none;
+  color:black;
+  font-family: sans-serif;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+  font-family: sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+  font-family: sans-serif;
+}
+
+a:active {
+  text-decoration: none;
+  color:black;
+  font-family: sans-serif;
+}
+
 /* 
 body {
     background-color: #F2E5D9;
@@ -16,10 +40,31 @@ body {
  */
 
 body {
-    padding-left: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-top: 10px;
  }
 
+.header {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 500;
+  display: flex;
+  border: 5px;
+  gap: 25px;
+  flex: 1;
+}
+
+.hlogo {
+  flex: 2;
+  height: auto;
+  width: 60px;
+}
+
+.links {
+  font-size: 20px;
+  
+}
 
 h1 {
     color: #839602;
@@ -32,9 +77,9 @@ h1 {
     box-sizing: border-box;
 }
 
-img {
+.logozwei {
     height: auto;
-    width: 400px;
+    width: 100px;
   }
  
 ul {
