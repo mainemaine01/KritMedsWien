@@ -1,11 +1,36 @@
+html {
+    box-sizing: border-box;
+    background-color: #F2E5D9;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* 
 body {
     background-color: #F2E5D9;
+    width: 800px;
  }
+ */
+
+body {
+    padding-left: 25px;
+    padding-top: 10px;
+ }
+
 
 h1 {
     color: #839602;
     font-family: sans-serif;
   }
+
+.intro {
+    height: 40px;
+    width: 800px;
+    box-sizing: border-box;
+}
 
 img {
     height: auto;
