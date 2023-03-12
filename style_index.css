@@ -1,0 +1,25 @@
+body {
+    background-color: #F2E5D9;
+ }
+
+h1 {
+    color: #839602;
+    font-family: sans-serif;
+  }
+
+img {
+    height: auto;
+    width: 400px;
+  }
+ 
+ul {
+    margin: 20px;
+}
+
+.socialmedia {
+    display: inline-block;
+    background-color: #839602;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 20px;
+}
